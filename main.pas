@@ -277,13 +277,13 @@ var
   doCreate: boolean;
 begin
   Randomize;
-  
+
   pt_LoadSettingFromFile(ChangeFileExt(ParamStr(0), '.ini'));
 
   closing := False;
 
   PageControl1.ActivePageIndex := 0;
-  
+
   undoManager := TUndoRedoManager.Create;
   undoManager.OnLoadFromStream := DoLoadTreeBinaryUndo;
   undoManager.OnSaveToStream := DoSaveTreeBinaryUndo;

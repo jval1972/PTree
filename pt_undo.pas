@@ -4,7 +4,7 @@
 //  Copyright (C) 2018 by Jim Valavanis
 //
 // DESCRIPTION:
-//  Undo/Redo Manager 
+//  Undo/Redo Manager
 //
 //------------------------------------------------------------------------------
 //  E-Mail: jimmyvalavanis@yahoo.gr
